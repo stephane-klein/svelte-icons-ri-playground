@@ -3,7 +3,7 @@ import Icons from 'unplugin-icons/vite';
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [
+    plugins: [
         sveltekit(),
         Icons({ compiler: 'svelte' })
     ]
